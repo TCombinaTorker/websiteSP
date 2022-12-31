@@ -1,0 +1,38 @@
+.topnav {
+    width: fit-content;
+    box-shadow: 0 2px 8px #333;
+    overflow: hidden;
+  }
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+.topnav a:hover {
+    border-bottom: 3px solid #333;
+  }
+
+
+#cvpage {
+    flex-direction: column;
+}
+.cvpage {
+    position:absolute;  
+    left: 50%;
+}
+.skill {
+    width: 50%;
+    padding:0.3rem;
+    box-shadow: 0 2px 8px #333;
+    margin: 0.5rem 0.3rem;
+    font-size:20px;
+    color: #333;
+    position: relative;
+    background-color: whitesmoke;
+}
